@@ -255,8 +255,8 @@ body {
 .universe {
     position: absolute;
     min-width: 0%;
-    max-width: 20%;
-    right: 37%;
+    max-width: 25%;
+    right: 36%;
     padding-top: 30px;
 }
 .universe {
@@ -313,15 +313,17 @@ body {
 .telegram {
     position: absolute;
     min-width: 0%;
-    max-width: 1%;
-    right: 75%;
-    margin-top: 40%;
+    max-width: 5%;
+    right: 65%;
+    padding-top: 50%;
 }
 .telegram1 {  
     display: inline-block; 
     overflow: hidden; /* Скрываем всё за контуром */
 }
 .telegram1 img {
+    min-width: 0%;
+    max-width: 100%;
     transition: 1s; /* Время эффекта */
     display: block; 
   }
@@ -330,27 +332,32 @@ body {
   }
 .vk {
     position: absolute;
-    margin-top: 950px;
-    margin-left: 776px;
+    min-width: 0%;
+    max-width: 5%;
+    right: 55%;
+    padding-top: 50%;
     
 }
 .instagram {
     position: absolute;
-    margin-top: 950px;
-    margin-left: 926px;
-    
+    min-width: 0%;
+    max-width: 5%;
+    right: 45%;
+    padding-top: 50%;
 }
 .youtube {
     position: absolute;
-    margin-top: 950px;
-    margin-left: 1076px;
-    
+    min-width: 0%;
+    max-width: 5%;
+    right: 35%;
+    padding-top: 50%;
 }
 .whatsapp {
     position: absolute;
-    margin-top: 950px;
-    margin-left: 1226px;
-    
+    min-width: 0%;
+    max-width: 5%;
+    right: 25%;
+    padding-top: 50%;
 }
 span{
     position: absolute;
@@ -577,18 +584,15 @@ animation-iteration-count: infinite;
   /* DEMO-SPECIFIC STYLES */
 .typewriter {
     position: absolute;
-    min-width: 0px;
-    max-width: 1000px;
-    padding-top: 100%;
-    right: 8%;
-    text-align: center;
-    font-size: calc(1pw + 1vw);
+    top: 33%;
+    right: 7%;
 }
   .typewriter h1 {
+    text-align: center;
+    font-size: 1.5vw;
     color: #fff;
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
@@ -609,11 +613,12 @@ animation-iteration-count: infinite;
   }
   .typewriter1 {
     position: absolute;
-    margin-top: 620px;
-    margin-left: 430px;
-    text-align: center;
+    margin-top: 33%;
+    right: 2%;
 }
   .typewriter1 h1 {
+    text-align: center;
+    font-size: 1.5vw;
     color: #fff;
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
